@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative max-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
       <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-r from-purple-100 to-pink-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-r from-cyan-400 to-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
       <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse" style={{ animationDelay: '4s' }}></div>
